@@ -1,0 +1,94 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+/* css style start */
+/* common style or utilities */
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+/* -------------------
+           header style start
+-------------------------------- */
+header{
+    background-color: #252c99;
+}
+.top-header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.half-width{
+    padding-left: 156px;
+}
+.half-width h3{
+    color: #FFFFFF;
+    font-size: 64px;
+    margin-bottom: 16px;
+}
+.half-width a{
+    text-decoration: none;
+    background-color: #E02C6D;
+    padding: 10px 24px;
+    font-weight: 0;
+    color: white;
+    
+    
+}
+.half-width img{
+    width: 556px;
+    height: 438px;
+    padding-right: 140px;
+    padding-bottom: 86px;
+    padding-top: 67px;
+}
+/* ---------------------------------------
+            main section style
+------------------------------------------- */
+main{
+    margin-top: 70px;
+    width: 1050px;
+    margin-left: 200px;
+    
+}
+.players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 30px;
+    grid-row-gap: 27px;
+}
+.players .player{
+    padding: 15px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+}
+.player .player-banner img{
+    width: 100%;
+}
+.player-info h4{
+    font-size: 20px;
+    font-weight: 600;
+}
+/* ----------------------------------
+            footer
+------------------------------------- */
+footer{
+    width: 483px;
+    height: 213px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 158px;
+}
+.soccer-banner img{
+    width: 50%;
+}
+.fab{
+    font-size: 20px;
+    margin-left: 5px;
+    background-color: rgb(216, 213, 213);
+    border-radius: 100px;
+    padding: 5px;
+}
+.social-banner p{
+    font-weight: 500;
+}
