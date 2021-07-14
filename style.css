@@ -13,7 +13,7 @@ body {
 header {
   background-color: #252c99;
 }
-.top-header {
+.top-banner {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -86,7 +86,7 @@ main {
   margin-bottom: 5px;
 }
 /*---------------------------------------
-             Match fixure and result style
+       Match fixure and result style
 --------------------------------------- */
 .section-title {
   text-align: center;
@@ -124,7 +124,7 @@ main {
   border-radius: 4px;
 }
 /* ----------------------------------
-            Registration area style
+        Registration area style
 ------------------------------------- */
 .registration-area {
   box-shadow: 10px 10px 40px gray;
@@ -182,10 +182,12 @@ footer {
 ---------------------------------- */
 
 @media only screen and (max-width: 668px) {
+  /* -----------header style------------ */
+
   header {
-    width: 400px;
+    width: 450px;
   }
-  .top-header {
+  .top-banner {
     flex-direction: column;
     align-items: center;
   }
@@ -197,15 +199,24 @@ footer {
     padding: 5px;
   }
   .half-width img {
-    width: 90%;
+    width: 70%;
     margin-right: 20px;
   }
+
+  /* -----------main style-------------- */
+
   main {
-    width: 100%;
-    margin: 0 auto;
+    margin-top: 5px;
+    width: 80px;
+    margin-left: 0px;
   }
   .players {
     grid-template-columns: repeat(1, 1fr);
+    margin-left: 30px;
+  }
+  .player-banner img {
+    width: 280px;
+    height: 250px;
   }
   .player {
     flex-direction: column;
@@ -213,15 +224,25 @@ footer {
     justify-content: center;
     margin-left: 40px;
   }
+
+  /*------------- Match fixure and result style ----------------*/
+
+  .section-title {
+    margin-left: 60px;
+  }
   .match-info {
     flex-direction: column;
     width: 100%;
+    margin-left: 50px;
   }
   .match-info p {
     font-size: 12px;
     font-weight: bold;
     color: tomato;
   }
+
+  /* ------------registration area style----------- */
+
   .registration-area {
     box-shadow: 10px 10px 40px gray;
     margin: 0 auto;
@@ -230,7 +251,11 @@ footer {
     margin-top: 50px;
     border-radius: 15px;
     background-color: whitesmoke;
+    margin-left: 50px;
   }
+
+  /* -----------------footer style----------------- */
+
   footer {
     width: 100%;
     text-align: center;
@@ -242,12 +267,13 @@ footer {
 /*--------------------------------------------
                       Tablet devices
 ----------------------------------------- */
-@media only screen and (min-width: 688px) and (max-width: 992px) {
+@media only screen and (min-width: 689px) and (max-width: 992px) {
+  /* --------------header style----------------- */
   header {
     width: 100%;
     padding-left: 10px;
   }
-  .top-header {
+  .top-banner {
     flex-direction: column;
   }
   .half-width {
@@ -256,15 +282,18 @@ footer {
   .half-width img {
     width: 450px;
   }
+  /* -----------main style----------------- */
   main {
     width: 100%;
     margin: 0 auto;
+    margin-top: 10px;
   }
   .players {
     grid-template-columns: repeat(2, 1fr);
     grid-column-gap: 10px;
     grid-row-gap: 10px;
-    margin-right: 20px;
+    margin-left: 80px;
+    margin-right: 60px;
   }
   .player-banner img {
     width: 250px;
@@ -274,16 +303,21 @@ footer {
     width: 260px;
     padding: 5px;
   }
+
+  /* --------------match fixures style--------- */
+
   .match-info {
     flex-direction: column;
     width: 100%;
   }
-
   .match-info p {
     font-size: 12px;
     font-weight: bold;
     color: tomato;
   }
+
+  /* ------------------registration are style----------------- */
+
   .registration-area {
     box-shadow: 10px 10px 40px gray;
     margin: 0 auto;
@@ -293,6 +327,9 @@ footer {
     border-radius: 15px;
     background-color: whitesmoke;
   }
+
+  /* ----------------footer style----------------- */
+
   footer {
     width: 100%;
     text-align: center;
