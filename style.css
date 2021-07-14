@@ -185,7 +185,7 @@ footer {
   /* -----------header style------------ */
 
   header {
-    width: 450px;
+    width: 473px;
   }
   .top-banner {
     flex-direction: column;
@@ -233,7 +233,7 @@ footer {
   .match-info {
     flex-direction: column;
     width: 100%;
-    margin-left: 50px;
+    margin-left: 70px;
   }
   .match-info p {
     font-size: 12px;
@@ -251,7 +251,7 @@ footer {
     margin-top: 50px;
     border-radius: 15px;
     background-color: whitesmoke;
-    margin-left: 50px;
+    margin-left: 70px;
   }
 
   /* -----------------footer style----------------- */
@@ -261,6 +261,7 @@ footer {
     text-align: center;
     margin: 0 auto;
     margin-top: 158px;
+    margin-left: 70px;
   }
 }
 
