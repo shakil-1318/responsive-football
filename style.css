@@ -62,7 +62,7 @@ header {
 main {
   margin-top: 70px;
   width: 1050px;
-  margin-left: 290px;
+  margin-left: 230px;
 }
 .players {
   display: grid;
@@ -103,7 +103,7 @@ main {
   margin-top: 50px;
 }
 .match-fixures {
-  box-shadow: 10px 10px 40px gainsboro;
+  box-shadow: 10px 10px 40px rgb(189, 170, 170);
   padding: 50px 100px;
   border-radius: 10px;
 }
@@ -127,7 +127,7 @@ main {
         Registration area style
 ------------------------------------- */
 .registration-area {
-  box-shadow: 10px 10px 40px gray;
+  box-shadow: 10px 10px 50px gray;
   margin: 0 auto;
   width: 1000px;
   padding: 20px;
@@ -183,85 +183,77 @@ footer {
 
 @media only screen and (max-width: 668px) {
   /* -----------header style------------ */
-
   header {
-    width: 460px;
+    width: 1041px;
   }
   .top-banner {
     flex-direction: column;
-    align-items: center;
-  }
-  .half-width h3 {
-    font-size: 30px;
-    margin-right: 10px;
-  }
-  .half-width {
-    padding: 5px;
-  }
-  .half-width img {
-    width: 70%;
-    margin-right: 20px;
   }
 
-  /* -----------main style-------------- */
-
+  /* main  */
   main {
-    margin-top: 5px;
-    width: 80px;
-    margin-left: 0px;
+    margin-top: 70px;
+    width: 100px;
+    margin-left: 250px;
   }
   .players {
     grid-template-columns: repeat(1, 1fr);
-    margin-left: 30px;
-  }
-  .player-banner img {
-    width: 280px;
-    height: 250px;
+    grid-row-gap: 27px;
   }
   .player {
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin-left: 40px;
+    padding: 30px;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
   }
-
-  /*------------- Match fixure and result style ----------------*/
-
+  .player-banner img {
+    width: 460px;
+    height: 400px;
+  }
+  .player-info h4 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 5px;
+  }
+  /*---------------------------------------
+       Match fixure and result style
+--------------------------------------- */
   .section-title {
-    margin-left: 60px;
+    position: relative;
+    margin-top: 100px;
+    margin-left: 422px;
+    width: 170px;
   }
   .match-info {
     flex-direction: column;
-    width: 100%;
-    margin-left: 70px;
-  }
-  .match-info p {
-    font-size: 12px;
-    font-weight: bold;
-    color: tomato;
-  }
-
-  /* ------------registration area style----------- */
-
-  .registration-area {
-    box-shadow: 10px 10px 40px gray;
-    margin: 0 auto;
-    width: 300px;
-    padding: 20px;
+    align-items: center;
     margin-top: 50px;
-    border-radius: 15px;
-    background-color: whitesmoke;
-    margin-left: 70px;
+    margin-left: 515px;
   }
-
-  /* -----------------footer style----------------- */
-
+  .match-fixures,
+  .latest-result {
+    padding: 50px 100px;
+    width: 325px;
+  }
+  /* ----------------------------------
+        Registration area style
+------------------------------------- */
+  .registration-area {
+    width: 490px;
+    height: 350px;
+    margin-left: 250px;
+  }
+  /* ----------------------------------
+            footer style 
+------------------------------------- */
   footer {
-    width: 100%;
-    text-align: center;
-    margin: 0 auto;
-    margin-top: 158px;
-    margin-left: 70px;
+    margin-left: 250px;
+  }
+  .soccer-banner img {
+    width: 50%;
+  }
+  .social-banner p {
+    font-weight: 600;
   }
 }
 
